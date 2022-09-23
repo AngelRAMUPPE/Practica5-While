@@ -1,0 +1,61 @@
+Algoritmo Practica5
+Escribir "Ingrese el numero de acuerdo a su decicion"
+Escribir "1- Pedir 3 numeros"
+Escribir "2- SUMA"
+Escribir "3- RESTA"
+Escribir "4- MULTIPLICACION"
+Escribir "5- DIVIDIR"
+Escribir "6- SALIR"
+leer op
+mientras op == 1 Hacer
+Escribir "Ingrese un numero"
+leer num1
+Escribir "Ingrese segundo numero"
+leer num2
+Escribir "Ingresa tercer numero"
+leer num3
+Escribir "Ingrese el numero de acuerdo a su decicion"
+leer op
+FinMientras
+Mientras op == 2 Hacer
+Escribir "SUMA"
+Escribir num1 " + " num2 " + " num3 " = "
+
+num1+num2+num3
+
+Escribir "Ingrese el numero de acuerdo a su decicion"
+leer op
+FinMientras
+Mientras op == 3 Hacer
+Escribir "RESTA"
+Escribir num1 " - " num2 " - " num3 " = "
+
+(num1-num2)-num3
+
+Escribir "Ingrese el numero de acuerdo a su decicion"
+leer op
+FinMientras
+Mientras op == 4 Hacer
+Escribir "MULTIPLICACION"
+Escribir num1 " * " num2 " * " num3 " = "
+
+num1*num2*num3
+
+Escribir "Ingrese el numero de acuerdo a su decicion"
+leer op
+FinMientras
+Mientras op == 5 Hacer
+Escribir "DIVIDIR"
+Escribir num1 " / " num2 " / " num3 " = "
+
+num1/num2/num3
+
+Escribir "Ingrese el numero de acuerdo a su decicion"
+
+leer op
+FinMientras
+Mientras op == 6 Hacer
+Escribir "SALIR"
+op <- 0
+FinMientras
+FinAlgoritmo
